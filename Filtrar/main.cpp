@@ -11,11 +11,11 @@
 #include <iostream>
 using namespace std;
 
-int filtrar(int *p, int *m, int cuantos){
-    int num = 0;
+int filtrar(int *p, int *m, int cuantos){ // le llamamos cuantos porque no tienes porqué coger toda la lista, podrias coger una parte de la lista únicamente
+    int num = 0; // contador
     for (int i = 0; i < cuantos; i++) {
-        if (p[i] >= 0){
-            m[num] = p[i];
+        if (p[i] >= 0){ // si el número es mayor o igual a 0 es verdadero
+            m[num] = p[i]; // se
             num  = num + 1;
         }
     }

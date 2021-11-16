@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		DE722EEE27216ED6001969A8 /* Filtrar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Filtrar; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE722EF127216ED6001969A8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DE722EF127216ED6001969A8 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; indentWidth = 4; path = main.cpp; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
